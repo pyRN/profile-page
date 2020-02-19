@@ -6,7 +6,7 @@ import PageComponent from './components/PageComponent'
 
 function App() {
   return (
-    <div className="mainClass">
+    <div className="mainDivStyle">
         <HeaderComponent/>
         <PageComponent/>
     </div>

@@ -17,3 +17,24 @@ body {
   background: linear-gradient(32deg, rgba(59,4,97,1) 0%, rgba(8,16,166,1) 50%, rgba(0,171,236,1) 100%);
 }
 
+.imgStyle{
+  max-height: 100px;
+  max-width: 100px;
+}
+
+.cardStyle{
+  max-height: 150px;
+}
+
+.mainDivStyle{
+  overflow: hidden;
+}
+
+.innerDivStyle{
+  overflow: auto; 
+  position: absolute; 
+  top: 60px; 
+  left: 0; 
+  right: 0; 
+  bottom: 0;
+}

@@ -5,8 +5,8 @@ class HeaderComponent extends Component {
 
     render() { 
         return (  
-            <div>
-                <nav className="navbar navbar-expand-md navbar-dark static-top mb-2 shadow-lg">
+            <div className="sticky-top">
+                <nav className="navbar navbar-expand-md navbar-dark static-top sticky-top mb-2 shadow-lg">
                     <div className="container">
                         <h2 className="navbar-brand">Jacob Mayeux</h2>
                         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"    

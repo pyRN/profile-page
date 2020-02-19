@@ -11,8 +11,8 @@ class PageComponent extends Component {
     render() { 
         return (  
 
-            <div class="container">
-                <div class="shadow-lg my-5 mx-1 mb-5 cardStyle">
+            <div className="container innerDivStyle">
+                <div className="shadow-lg my-5 mx-1 mb-5 cardStyle">
                         <ReachRouter>
                             <AboutPage path='/'/>
                             <ResumePage path='/resume'/>
